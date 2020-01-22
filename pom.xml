@@ -72,8 +72,9 @@
         <module>archetypes/eik-camel-archetype</module>
 
         <!-- Manual -->
+        <!--
         <module>manual</module>
-
+        -->
         <!-- Assembly -->
         <module>assembly</module>
     </modules>

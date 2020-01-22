@@ -36,11 +36,11 @@
 
     <properties>
         <platform-version-name>luna</platform-version-name>
-        <eclipse-site>http://download.eclipse.org/releases/${platform-version-name}</eclipse-site>
-        <wikitext-site>http://download.eclipse.org/tools/mylyn/update/weekly</wikitext-site>
-        <swtbot-site>http://download.eclipse.org/technology/swtbot/${platform-version-name}/dev-build/update-site</swtbot-site>
-        <orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository</orbit-site>
-        <tycho-version>0.13.0</tycho-version>
+        <eclipse-site>https://download.eclipse.org/releases/2019-12/</eclipse-site>
+        <wikitext-site>https://download.eclipse.org/mylyn/releases/latest/</wikitext-site>
+        <swtbot-site>https://download.eclipse.org/technology/swtbot/releases/latest/</swtbot-site>
+        <orbit-site>https://download.eclipse.org/tools/orbit/downloads/drops/R20191126223242/repository</orbit-site>
+        <tycho-version>1.4.0</tycho-version>
         <aries.jmx.version>1.0.0</aries.jmx.version>
         <commons-collections.version>3.2.1</commons-collections.version>
         <commons-lang.version>2.6</commons-lang.version>
@@ -50,7 +50,7 @@
         <pax.url.version>1.2.8</pax.url.version>
         <sshd.version>0.5.0</sshd.version>
         <integration.version>1.0.0</integration.version>
-        <scala.version>2.9.1</scala.version>
+        <scala.version>2.13.0</scala.version>
         <scala-plugin.version>2.15.2</scala-plugin.version>
     </properties>
 

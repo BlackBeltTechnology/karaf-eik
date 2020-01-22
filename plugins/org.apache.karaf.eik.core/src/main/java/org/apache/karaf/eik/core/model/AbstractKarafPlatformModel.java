@@ -21,6 +21,7 @@ package org.apache.karaf.eik.core.model;
 import org.apache.karaf.eik.core.KarafPlatformModel;
 import org.apache.karaf.eik.core.SystemBundleNames;
 
+import java.net.URI;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -68,7 +69,7 @@ abstract public class AbstractKarafPlatformModel implements KarafPlatformModel {
         synchronized (monitor) {
             if (pdeState == null) {
                 bundleList.addAll(getPlatformBundles());
-                pdeState = new PDEState(bundleList.toArray(new URL[0]), false, false, new NullProgressMonitor());
+                pdeState = new PDEState(bundleList.toArray(new URI[0]), false, false, new NullProgressMonitor());
             }
         }
 
